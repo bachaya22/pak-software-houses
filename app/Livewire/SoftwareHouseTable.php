@@ -27,6 +27,9 @@ class SoftwareHouseTable extends Component
 
         return view('livewire.software-house-table', [
             'softwareHouses' => $softwareHouses,
+
+
+                    
         ]);
     }
 }
